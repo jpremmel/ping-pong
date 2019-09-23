@@ -6,6 +6,9 @@ class  PingPong
   {
     Console.WriteLine("Please enter a number:");
     int userInput = int.Parse(Console.ReadLine());
-    Console.WriteLine(userInput + 4);
+    for (int i = 0; i <= userInput; i++)
+    {
+      Console.WriteLine(i);
+    }
   }
 }
